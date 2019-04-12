@@ -29,6 +29,10 @@ Kick off your next headless CMS experience with this starter. This starter ships
 
     You will need to setup a free Netlify account. Do so by visiting https://app.netlify.com/signup and linking your GitHub/GitLab/Bitbucket account.
 
+3.  **Github Repo**
+
+    Setup a remote repository for the project you will be working on.
+
 ## Quick start
 
 1.  **Create a Gatsby site.**
@@ -40,25 +44,59 @@ Kick off your next headless CMS experience with this starter. This starter ships
     gatsby new my-new-project https://github.com/CoreyHutcheson/gatsby-wordpress-netlify-starter
     ```
 
-2.  **Run The Setup Process**
+2.  **Connect Remote Repository**
+
+    Change the URL below to match the one for the remote repository you created.
+
+    ```sh
+    $ git remote add origin https://github.com/USERNAME/REPO-NAME.git
+    $ git push -u origin master
+    ```
+
+3.  **Run The Setup Process**
 
     Navigate into your new site’s directory and set it up. This process creates the required .nvmrc file with your respective Node version and initalizes the Netlify site.
 
     ```sh
-    cd my-new-project/
-    npm run setup
+    $ cd my-new-project/
+    $ npm run setup
     ```
 
-3.  **Open the source code and start editing!**
-    <<<<<<< HEAD
+4.  **Complete Prompt**
 
-        Launch your development server by running:
+    You will be prompted to enter information regarding your new netlify website.
 
-=======
+    ```
+    ? What would you like to do?
+      + Create & configure a new site
+
+    Choose a site name or leave blank for a random name. You can update later.
+    ? Site name (optional):
+      # Enter a site name
+    ? Team:
+      # Select your team
+
+    Site Created
+
+    ...
+
+    ? Your GitHub username:
+        # Enter remote repository username
+    ? Your GitHub password:
+        # Enter remote repository password
+    ? Your build command (hugo build/yarn run build/etc):
+        npm run build
+    ? Directory to deploy (blank for current dir):
+        public/
+    ? No netlify.toml detected. Would you like to create one with these build settings?
+        Yes
+
+    ...
+    ```
+
+5)  **Open the source code and start editing!**
 
     Launch your development server by running:
-
-> > > > > > > 06549b55c8f9eb4147808e054621091924dde57a
 
     ```sh
     $ npm start

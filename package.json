@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "setup": "node -v  > .nvmrc && netlify init",
+    "publish": "node -v  > .nvmrc && netlify init",
     "build": "gatsby build",
     "dev": "gatsby develop -o",
     "dev-m": "gatsby develop -o -H 0.0.0.0",

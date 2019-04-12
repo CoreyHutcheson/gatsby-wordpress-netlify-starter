@@ -50,8 +50,15 @@ Kick off your next headless CMS experience with this starter. This starter ships
     ```
 
 3.  **Open the source code and start editing!**
+    <<<<<<< HEAD
+
+        Launch your development server by running:
+
+=======
 
     Launch your development server by running:
+
+> > > > > > > 06549b55c8f9eb4147808e054621091924dde57a
 
     ```sh
     $ npm start

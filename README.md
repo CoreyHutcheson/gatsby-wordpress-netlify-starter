@@ -41,7 +41,8 @@ Kick off your next headless CMS experience with this starter. This starter ships
 
     ```sh
     # create a new Gatsby site using the default starter
-    gatsby new my-new-project https://github.com/CoreyHutcheson/gatsby-wordpress-netlify-starter
+    $ gatsby new my-new-project https://github.com/CoreyHutcheson/gatsby-wordpress-netlify-starter
+    $ cd my-new-project
     ```
 
 2.  **Connect Remote Repository**
@@ -58,7 +59,6 @@ Kick off your next headless CMS experience with this starter. This starter ships
     Navigate into your new site’s directory and set it up. This process creates the required .nvmrc file with your respective Node version and initalizes the Netlify site.
 
     ```sh
-    $ cd my-new-project/
     $ npm run setup
     ```
 
